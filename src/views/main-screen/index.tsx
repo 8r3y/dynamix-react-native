@@ -9,7 +9,6 @@ import {
 } from 'react-native';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-import { Section } from '../../components';
 import { SpeedometerWidget } from '../../components';
 
 export const MainScreen = () => {
@@ -34,7 +33,6 @@ export const MainScreen = () => {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}
         >
-          <Section title="AstraDynamics">Hello!</Section>
           <SpeedometerWidget />
         </View>
       </ScrollView>
